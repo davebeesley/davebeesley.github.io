@@ -1,0 +1,21 @@
+.copyright{
+	text-align:center;
+}
+
+.social{
+	display:flex;
+	justify-content:center;
+	margin:0 auto;
+	width:60%;
+
+	a{
+		display:inline-block;
+		float:left;
+		margin:0 5px;
+		width:36px;
+
+		img{
+			display:block;
+		}
+	}
+}
