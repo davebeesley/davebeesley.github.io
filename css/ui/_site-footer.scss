@@ -1,21 +1,25 @@
-.copyright{
-	text-align:center;
+.site-footer{
+	padding:2em 0;
 }
 
-.social{
-	display:flex;
-	justify-content:center;
-	margin:0 auto;
-	width:60%;
+	.copyright{
+		text-align:center;
+	}
 
-	a{
-		display:inline-block;
-		float:left;
-		margin:0 5px;
-		width:36px;
+	.social{
+		display:flex;
+		justify-content:center;
+		margin:0 auto;
+		width:60%;
 
-		img{
-			display:block;
+		a{
+			display:inline-block;
+			float:left;
+			margin:0 5px;
+			width:36px;
+
+			img{
+				display:block;
+			}
 		}
 	}
-}

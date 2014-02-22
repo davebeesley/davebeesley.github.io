@@ -10,6 +10,16 @@ html{
 		width:90%;
 	}
 
+a{
+	color:$brand-color;
+	text-decoration:none;
+
+	&:hover{
+		text-decoration:underline;
+	}
+}
+
 h1,h2,h3,h4,h5,h6{
+	color:$brand-color;
 	font-family:$head-ff;
 }
