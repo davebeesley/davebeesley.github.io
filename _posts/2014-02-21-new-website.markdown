@@ -7,7 +7,7 @@ categories: website development jekyll html css markdown
 
 Wow, so I finally got my new website up and running. It's pretty basic at the moment, but I aim for it to grow and grow.
 
-This new site mainly grew out of the fact I have spent a lot of time thinking, mainly while swimming or exercising at the gym, of possible blog posts etc. But with a lack of place to publish them, the enthusiasm for them wained (I know I could have published them to Medium, but I don't think my thoughts are quite Medium-worthy).
+This new site mainly grew out of the fact I have spent a lot of time thinking, mainly while swimming or exercising at the gym, of possible blog posts etc. But with a lack of place to publish them, the enthusiasm for them wained (I know I could have published them to Medium, but I don't think my thoughts are quite Medium-worthy)
 
 ### Now for the geeky bit
 
