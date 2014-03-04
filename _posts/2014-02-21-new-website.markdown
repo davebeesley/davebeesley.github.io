@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "New Website"
+title:  New Website
 date:   2014-02-21 12:45:09
 categories: website development jekyll html css markdown
 ---
