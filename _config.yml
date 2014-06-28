@@ -1,4 +1,4 @@
 name: David Beesley - Web Developer
 markdown: redcarpet
-pygments: true
+highlighter: true
 permalink: /blog/:title

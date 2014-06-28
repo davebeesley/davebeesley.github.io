@@ -13,37 +13,37 @@ var gulp = require('gulp'),
     livereload = require('gulp-livereload');
 
  gulp.task('styles', function() {
-  return gulp.src('css/style.scss')
+  return gulp.src('sass/style.scss')
     .pipe(sass({ style: 'expanded' }))
     .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1', 'ios 6', 'android 4'))
-    .pipe(gulp.dest('css/'))
+    .pipe(gulp.dest('dist/css/'))
     .pipe(rename({suffix: '.min'}))
     .pipe(minifycss())
-    .pipe(gulp.dest('css/'))
+    .pipe(gulp.dest('dist/css/'))
     .pipe(notify({ message: 'Styles task complete' }));
 });
 
  gulp.task('scripts', function() {
-  return gulp.src('js/**/*.js')
+  return gulp.src('scripts/**/*.js')
     .pipe(jshint('.jshintrc'))
     .pipe(jshint.reporter('default'))
     .pipe(concat('main.js'))
-    .pipe(gulp.dest('js/'))
+    .pipe(gulp.dest('dist/js/'))
     .pipe(rename({suffix: '.min'}))
     .pipe(uglify())
-    .pipe(gulp.dest('js/'))
+    .pipe(gulp.dest('dist/js/'))
     .pipe(notify({ message: 'Scripts task complete' }));
 });
 
  gulp.task('images', function() {
   return gulp.src('images/**/*')
     .pipe(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true }))
-    .pipe(gulp.dest('images/'))
+    .pipe(gulp.dest('dist/img/'))
     .pipe(notify({ message: 'Images task complete' }));
 });
 
  gulp.task('clean', function() {
-  return gulp.src(['css/', 'js/', 'images/'], {read: false})
+  return gulp.src(['dist/css/', 'dist/js/', 'dist/img/'], {read: false})
     .pipe(clean());
 });
 
@@ -60,7 +60,7 @@ var gulp = require('gulp'),
   gulp.watch('js/**/*.js', ['scripts']);
 
   // Watch image files
-  gulp.watch('images/**/*', ['images']);
+  gulp.watch('img/**/*', ['images']);
 
   // Create LiveReload server
   var server = livereload();
