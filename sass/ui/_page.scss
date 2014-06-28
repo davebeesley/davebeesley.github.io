@@ -9,6 +9,18 @@ html{
 		max-width:$base-mw;
 		width:90%;
 	}
+		.post{
+			margin:0 0 2em 0;
+
+			p{
+				-webkit-column-break-inside: avoid;
+				column-break-inside: avoid;
+			}
+			@include media-query(lap-and-up){
+				column-count: 2;
+				column-gap:4em;
+			}
+		}
 
 a{
 	color:$brand-color;

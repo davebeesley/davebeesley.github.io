@@ -2922,6 +2922,24 @@ body {
   width: 90%;
 }
 
+.post {
+  margin: 0 0 2em 0;
+}
+.post p {
+  -webkit-column-break-inside: avoid;
+  column-break-inside: avoid;
+}
+@media only screen and (min-width: 481px) {
+  .post {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 4em;
+    -moz-column-gap: 4em;
+    column-gap: 4em;
+  }
+}
+
 a {
   color: #9b111e;
   text-decoration: none;
