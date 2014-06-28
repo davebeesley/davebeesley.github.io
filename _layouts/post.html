@@ -7,3 +7,8 @@ layout: default
 <div class="post">
 {{ content }}
 </div>
+
+<div class="meta">
+	<p class="tags">Tagged in: {{ page.categories | join: ', ' }}</p>
+	<p class="commment">Comment on <a href="http://twitter.com/?status=@davebeesley">Twitter</a></p>
+</div>
