@@ -2909,6 +2909,13 @@ label,
 /**
  * She’s all yours, cap’n... Begin importing your stuff here.
  */
+h1, h2, h3, h4, h5, h6 {
+  -webkit-column-break-before: always;
+  -webkit-break-before: always-column;
+  -moz-break-before: always-column;
+  break-before: always-column;
+}
+
 html {
   color: black;
   font-family: "Istok Web", sans-serif;
@@ -2927,7 +2934,8 @@ body {
 }
 .post p {
   -webkit-column-break-inside: avoid;
-  column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid-column;
 }
 @media only screen and (min-width: 481px) {
   .post {

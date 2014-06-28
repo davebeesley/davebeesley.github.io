@@ -14,7 +14,7 @@ html{
 
 			p{
 				-webkit-column-break-inside: avoid;
-				column-break-inside: avoid;
+				break-inside: avoid-column;
 			}
 			@include media-query(lap-and-up){
 				column-count: 2;
