@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  First Impressions of Fitbit
-date:   2014-02-21 12:45:09
+date:   2014-06-28 15:10:00
 categories: gadgets fitness geeky
 ---
 
