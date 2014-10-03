@@ -1,4 +1,17 @@
-<div class="site-header">
+<header class="site-header">
 	<h1 class="title gamma giga db"><a href="/">db</a></h1>
 	<h2 class="delta">david beesley<br>a web developer, a football nerd, a formula one geek</h2>
-</div>
+	<nav>
+	    <ul>
+	    {% for link in site.navigation %}
+	        {% assign current = nil %}
+	        {% if page.url contains link.url %}
+	            {% assign current = 'current' %}
+	        {% endif %}
+	        <li class="element {% if forloop.first %}first{% endif %} {{ current }} {% if forloop.last %}last{% endif %}">
+	            <a href="{{ link.url }}">{{ link.title }}</a>
+	        </li>
+	    {% endfor %}
+	    </ul>
+	</nav>
+</header>
