@@ -3,6 +3,7 @@ html{
 	background-position: center;
 	background-size: cover;
 	color: $base-color;
+	filter: blur(10px);
 	font-family: $base-ff;
 	letter-spacing: 0;
 	overflow-y: scroll;

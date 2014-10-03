@@ -2917,6 +2917,8 @@ html {
   background-position: center;
   background-size: cover;
   color: black;
+  -webkit-filter: blur(10px);
+          filter: blur(10px);
   font-family: "Istok Web", sans-serif;
   letter-spacing: 0;
   overflow-y: scroll;
