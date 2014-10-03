@@ -2913,7 +2913,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 html {
-  background-image: url("../dist/img/background.jpg");
+  background-image: url("/dist/img/background.jpg");
   background-position: center;
   background-size: cover;
   color: black;
