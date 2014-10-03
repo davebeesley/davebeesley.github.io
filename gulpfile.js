@@ -20,7 +20,7 @@ del = require('del');
  
 // Styles
 gulp.task('styles', function() {
-return gulp.src('sass/*.scss')
+return gulp.src('sass/**/*.scss')
 .pipe(sass({ style: 'expanded', }))
 .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1', 'ios 6', 'android 4'))
 .pipe(gulp.dest('dist/css'))
@@ -32,7 +32,7 @@ return gulp.src('sass/*.scss')
  
 // Scripts
 gulp.task('scripts', function() {
-return gulp.src('js/*.js')
+return gulp.src('js/**/*.js')
 .pipe(jshint('.jshintrc'))
 .pipe(jshint.reporter('default'))
 .pipe(concat('main.js'))
@@ -53,7 +53,7 @@ return gulp.src('images/**/*')
  
 // Clean
 gulp.task('clean', function(cb) {
-del(['dist/assets/css', 'dist/assets/js', 'dist/assets/img'], cb)
+del(['dist/css', 'dist/js', 'dist/img'], cb)
 });
  
 // Default task
