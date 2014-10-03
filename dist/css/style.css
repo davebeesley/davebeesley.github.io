@@ -2978,7 +2978,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .site-header {
-  text-align: center;
+  background: #0a0a0a;
+  width: 100%;
 }
 
 .title {
@@ -2991,34 +2992,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .db {
   letter-spacing: -0.125em;
-}
-
-.site-footer {
-  padding: 2em 0;
-}
-
-.copyright {
-  text-align: center;
-}
-
-.social {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin: 0 auto;
-  width: 60%;
-}
-.social a {
-  display: inline-block;
-  float: left;
-  margin: 0 5px;
-  width: 36px;
-}
-.social a img {
-  display: block;
 }
 
 .home {
