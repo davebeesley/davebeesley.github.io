@@ -2913,15 +2913,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 html {
-  background-image: url("/dist/img/background.jpg");
-  background-position: center;
-  background-size: cover;
   color: black;
-  -webkit-filter: blur(10px);
-          filter: blur(10px);
   font-family: "Istok Web", sans-serif;
   letter-spacing: 0;
   overflow-y: scroll;
+  position: relative;
 }
 
 body {
@@ -2960,6 +2956,23 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   color: #9b111e;
   font-family: "Share Tech", sans-serif;
+}
+
+.background {
+  background-image: url("/dist/img/background.jpg");
+  background-position: center;
+  background-size: cover;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 0;
+}
+
+.site {
+  z-index: 2;
 }
 
 .site-header {

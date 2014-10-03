@@ -1,12 +1,9 @@
 html{
-	background-image: url('/dist/img/background.jpg');
-	background-position: center;
-	background-size: cover;
 	color: $base-color;
-	filter: blur(10px);
 	font-family: $base-ff;
 	letter-spacing: 0;
 	overflow-y: scroll;
+	position: relative;
 }
 	body{
 		margin: 0 auto;
@@ -39,3 +36,19 @@ h1, h2, h3, h4, h5, h6{
 	color: $brand-color;
 	font-family: $head-ff;
 }
+
+		.background {	
+			background-image: url('/dist/img/background.jpg');
+			background-position: center;
+			background-size: cover;
+			filter: blur(3px);
+			left: 0;
+			position: fixed;
+			top: 0;
+			width: 100%;
+			z-index: 0;
+		}
+
+		.site {
+			z-index: 2;
+		}
