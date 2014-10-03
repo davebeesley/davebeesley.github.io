@@ -5,5 +5,4 @@ description: David Beesley is a Web Developer based In Gloucester, UK. Specialis
 keywords: Web Developer, David Beesley, HTML, CSS, JavaScript, JS, PHP, Cheltenham, Gloucester, UK
 author: David Beesley
 ---
-
-# Hello, I'm David and I'm a Web Developer
+#Hello, I'm David and I'm a Web Developer
