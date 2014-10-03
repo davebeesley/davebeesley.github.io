@@ -1,19 +1,19 @@
-html{
+html {
 	color: $base-color;
 	font-family: $base-ff;
 	letter-spacing: 0;
 	overflow-y: scroll;
 	position: relative;
 }
-	body{
+	body {
 		margin: 0 auto;
 		max-width: $base-mw;
 		width: 90%;
 	}
-		.post{
+		.post {
 			margin: 0 0 2em 0;
 
-			p{
+			p {
 				-webkit-column-break-inside: avoid;
 				break-inside: avoid-column;
 			}
@@ -23,16 +23,16 @@ html{
 			}
 		}
 
-a{
+a {
 	color: $brand-color;
 	text-decoration:none;
 
-	&:hover{
+	&:hover {
 		text-decoration: underline;
 	}
 }
 
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6 {
 	color: $brand-color;
 	font-family: $head-ff;
 }
@@ -42,6 +42,7 @@ h1, h2, h3, h4, h5, h6{
 			background-position: center;
 			background-size: cover;
 			filter: blur(3px);
+			height: 100%;
 			left: 0;
 			position: fixed;
 			top: 0;
@@ -50,5 +51,6 @@ h1, h2, h3, h4, h5, h6{
 		}
 
 		.site {
+			position: relative;
 			z-index: 2;
 		}

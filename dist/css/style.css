@@ -2964,6 +2964,7 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
   -webkit-filter: blur(3px);
           filter: blur(3px);
+  height: 100%;
   left: 0;
   position: fixed;
   top: 0;
@@ -2972,6 +2973,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .site {
+  position: relative;
   z-index: 2;
 }
 
