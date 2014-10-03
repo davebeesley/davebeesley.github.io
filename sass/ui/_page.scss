@@ -6,22 +6,7 @@ html {
 	position: relative;
 }
 	body {
-		margin: 0 auto;
-		max-width: $base-mw;
-		width: 90%;
 	}
-		.post {
-			margin: 0 0 2em 0;
-
-			p {
-				-webkit-column-break-inside: avoid;
-				break-inside: avoid-column;
-			}
-			@include media-query(lap-and-up){
-				column-count: 2;
-				column-gap: 4em;
-			}
-		}
 
 a {
 	color: $brand-color;
@@ -54,3 +39,9 @@ h1, h2, h3, h4, h5, h6 {
 			position: relative;
 			z-index: 2;
 		}
+
+			.container {
+				margin: 0 auto;
+				max-width: $base-mw;
+				width: 90%;				
+			}

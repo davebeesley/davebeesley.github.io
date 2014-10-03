@@ -1,0 +1,12 @@
+.post {
+	margin: 0 0 2em 0;
+
+	p {
+		-webkit-column-break-inside: avoid;
+		break-inside: avoid-column;
+	}
+	@include media-query(lap-and-up){
+		column-count: 2;
+		column-gap: 4em;
+	}
+}
