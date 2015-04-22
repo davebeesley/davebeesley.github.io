@@ -1,9 +1,0 @@
-name: David Beesley - Web Developer
-markdown: redcarpet
-highlighter: true
-permalink: /blog/:title
-navigation:
- - title: Home
-   url: /index.html
- - title: Blog
-   url: /blog/
