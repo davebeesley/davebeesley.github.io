@@ -14,3 +14,5 @@ highlighter: pygments
 encoding: utf-8
 permalink: /:year/:month/:title
 paginate: 10
+sass:
+    style: compressed
