@@ -1,14 +1,12 @@
 ---
-layout: default
+layout: page
+title: Blog
+weight: 2
+permalink: /blog/
 ---
 
-
-<h1>{{ site.title }}</h1>
-<p>Hi, I'm David, and I'm a Web Developer. This is where I post my incessant ramblings about all things web, politics, football and anything else that crosses my mind. Enjoy!</p>
-
-<h2>Latest Blog Posts</h2>
 <ul class="post-list">
-  {% for post in site.posts limit:2 %}
+  {% for post in site.posts %}
     <li class="post-list__post">
       <h3 class="post-list__heading">
         <a class="post-list__link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>

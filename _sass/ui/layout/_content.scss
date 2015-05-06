@@ -1,0 +1,10 @@
+/// <reference file="../../vars" />
+
+.content {
+	background: $body-bg;
+	width: 100%;
+
+	@include media-query(lap-and-up) {
+		flex: 60% 1 auto;
+	}
+}

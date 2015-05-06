@@ -1,0 +1,36 @@
+/// <reference file="../../vars" />
+
+.footer {
+	background-color: $brand-colour;
+	padding: $gutter $gutter/2;
+	width: 100%;
+
+	@include media-query(lap-and-up) {
+		flex-basis: 100px;
+	}
+
+	&__links {
+		ul {
+			@extend .nav;
+
+			text-align: center;
+		}
+
+		li {
+			width: 32px;
+
+			@include media-query(lap-and-up) {
+				display: block !important;
+				margin: 0 auto $gutter/4 auto;
+			}
+		}
+
+		a {
+			display: block !important;
+		}
+
+		.icon path {
+			fill: #ffffff;
+		}
+	}
+}

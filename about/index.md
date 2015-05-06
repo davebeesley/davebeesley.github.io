@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+weight: 1
 ---
 
 Hi, I'm David and I'm a Front End Web Developer based in Gloucestershire, UK. Primarily focussing on HTML, CSS and JavaScript. Although I have been known to get my hands dirty in some PHP and C# code too.

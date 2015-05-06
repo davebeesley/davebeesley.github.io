@@ -2,20 +2,26 @@
 layout: page
 title: Contact
 permalink: /contact/
+weight: 3
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Contact me</h1>
-
-  <form action="http://formspree.io/hello@davidbeesley.co.uk" method="post">
-    <input type="text" name="name">
-    <input type="email" name="_replyto">
-    <textarea name="body"></textarea>
-    <input type="text" name="_gotcha" style="display:none" />
-    <input type="hidden" name="_subject" value="New submission!" />
-    <input type="hidden" name="_next" value="http://davidbeesley.co.uk/thanks" />
-    <input type="submit" value="Send">
-  </form>
-
-</div>
+<form action="http://formspree.io/hello@davidbeesley.co.uk" method="post">
+  <ul class="form-fields">
+    <li>
+      <label for="name">Name</label>
+      <input type="text" name="name">
+    </li>
+    <li>
+      <label for="_replyto">Email Address</label>    
+      <input type="email" name="_replyto">
+    </li>
+    <li>
+      <label for="body">Message</label>
+      <textarea name="body"></textarea>
+    </li>
+    <li><input type="submit" value="Send" class="btn"></li>
+  </ul>
+  <input type="text" name="_gotcha" style="display:none" />
+  <input type="hidden" name="_subject" value="New submission!" />
+  <input type="hidden" name="_next" value="http://davidbeesley.co.uk/contact/thanks/" />  
+</form>

@@ -1,16 +1,30 @@
 /// <reference file="../vars" />
 
+html {
+	height: 100%;
+}
 
 body {
 	background-color: $body-bg;
 	color: $body-text;
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+
+	> * {
+		padding: $gutter;
+	}
+
+	@include media-query(lap-and-up) {
+		flex-direction: row;
+	}
 }
 
 @include headings(1, 6) {
 	line-height: 1.1 !important;
-	font-weight: bold;
+	font-family: $brand-font-family;
 	margin: 0 0 15px;
-	color: $body-text;
+	color: $brand-colour;
 }
 
 .alpha, .beta, .gamma,

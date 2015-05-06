@@ -1,4 +1,5 @@
 ---
+# Front matter comment to ensure Jekyll properly reads file.
 ---
 
 @charset "UTF-8";
@@ -45,8 +46,9 @@
 \*------------------------------------*/
 // Main page structure stuff, like header & footer for example 
 
-@import "ui/layout/site-head";
-@import "ui/layout/site-foot";
+@import "ui/layout/header";
+@import "ui/layout/footer";
+@import "ui/layout/content";
 
 
 
@@ -54,4 +56,4 @@
     $COMPONENTS
 \*------------------------------------*/
 
-@import "ui/components/icon";
+@import "ui/components/post-list";

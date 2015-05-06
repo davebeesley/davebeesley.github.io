@@ -1,0 +1,64 @@
+/// <reference file="../../vars" />
+
+.header {
+	background-color: $brand-colour;
+	width: 100%;
+
+	@include media-query(lap-and-up)  {
+		flex-basis: 250px;
+	}
+
+	&__title {
+		display: block;
+		margin: 0 auto 1em auto;
+		text-decoration: none;
+		width: 60px;
+	}
+
+	&__logo {
+		background-color: $body-bg;
+		display: block;
+		font-family: $brand-font-family;
+		font-size: 40px;
+		height: 60px;
+		line-height: 55px;
+		margin: 0 auto $gutter auto;
+		text-align: center;
+		width: 60px;
+
+		@include vendor('border-radius', 50%)
+	}
+
+	&__nav {
+		margin: 0 0 $gutter 0;
+
+		ul {
+			margin: 0;
+			text-align: center;
+		}
+
+		li {
+			@include media-query (lap-and-up) {
+				display: block;
+				margin: 0 auto $gutter/4 auto;
+			}
+		}
+
+		a {
+			@extend .btn;
+			@extend .btn--small;
+
+			background-color: $body-bg;
+		}
+	}
+
+	&__intro {
+		color: $body-bg;
+		font-family: $brand-font-family;
+		text-align: center;
+
+		@include media-query(lap-and-up) {
+			text-align: left;
+		}
+	}
+}

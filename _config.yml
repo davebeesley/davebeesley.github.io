@@ -12,8 +12,8 @@ github_username:  davebeesley
 markdown: kramdown
 highlighter: pygments
 encoding: utf-8
-permalink: /:year/:month/:title
-paginate: 10
+permalink: /blog/:year/:month/:title
+paginate: 5
 sass:
     style: compressed
 

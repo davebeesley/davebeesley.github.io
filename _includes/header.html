@@ -1,26 +1,27 @@
-<header class="site-head">
+<header class="header">
 
-  <div class="wrapper">
+  <a class="header__title" href="{{ site.baseurl }}/">
+    <span class="header__logo">
+      db
+    </span>
+    <span class="header__title visuallyhidden">
+      {{ site.title }}
+    </span>
+  </a>
 
-    <a class="site-title" href="{{ site.baseurl }}/">
-      <span class="logo">
-        db
-      </span>
-      <span class="title">
-        {{ site.title }}
-      </span>
-    </a>
-
-    <nav class="nav nav--banner">
-      <ul>
-        {% for page in site.pages %}
+  <nav class="header__nav">
+    <ul class="nav">
+      {% assign pages = site.pages | sort:"weight"  %}
+      {% for page in pages %}
+        {% unless page.exclude %}
           {% if page.title %}
           <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
           {% endif %}
-        {% endfor %}
-      </ul>
-    </nav>
+        {% endunless %}
+      {% endfor %}
+    </ul>
+  </nav>
 
-  </div>
+  <p class="header__intro">{{ site.description }}
 
 </header>
