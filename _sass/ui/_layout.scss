@@ -1,0 +1,12 @@
+/// <reference file="../vars" />
+
+
+.layout--rev {
+	direction: rtl;
+	text-align: left;
+
+	> * {
+		direction: ltr;
+		text-align: left;
+	}
+}

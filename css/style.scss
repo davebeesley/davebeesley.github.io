@@ -27,4 +27,31 @@
 /**
  * She’s all yours, cap’n... Begin importing your stuff here.
  */
-//@import "ui/example";
+
+/*------------------------------------*\
+    $DEFAULT
+\*------------------------------------*/
+
+@import "ui/mixins"; // helper mixins
+@import "ui/base"; // base styles
+@import "ui/fonts"; // @font-faces
+@import "ui/layout"; // main page layout
+@import "ui/common"; // common or miscellaneous styles
+
+
+
+/*------------------------------------*\
+    $LAYOUT
+\*------------------------------------*/
+// Main page structure stuff, like header & footer for example 
+
+@import "ui/layout/site-head";
+@import "ui/layout/site-foot";
+
+
+
+/*------------------------------------*\
+    $COMPONENTS
+\*------------------------------------*/
+
+@import "ui/components/icon";

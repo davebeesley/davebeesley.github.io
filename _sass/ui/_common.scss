@@ -1,0 +1,86 @@
+/// <reference file="../vars" />
+
+
+.brand {
+	color: $brand-colour;
+
+	&.brand--secondary {
+		color: $brand-colour--secondary !important;
+	}
+}
+
+.is-hidden {
+	display: none !important;
+}
+
+.is-hidden--text {
+	@include accessibility;
+}
+
+.lead,
+.lede {
+	font-size: $lead-size !important;
+}
+
+.img--right {
+	float: right;
+	margin: 0 0 10px 15px;
+}
+
+.img--left {
+	float: left;
+	margin: 0 15px 10px 0;
+}
+
+.stretched {
+	width: 100%;
+}
+
+.bumperless {
+	margin: 0;
+}
+
+.highlighted {
+	//color: $highlighted-colour;
+}
+
+.muted {
+	@include muted;
+}
+
+.strong {
+	font-weight: bold;
+}
+
+.emphasised {
+	font-style: italic;
+}
+
+.note {
+	@include font-size($milli-size, false);
+}
+
+.preformatted { /* Exists to apply rudimentary formatting to legacy data */
+	white-space: pre-wrap;       /* CSS-3                  */
+	white-space: -moz-pre-wrap;  /* Mozilla, since 1999    */
+	white-space: -pre-wrap;      /* Opera 4-6              */
+	white-space: -o-pre-wrap;    /* Opera 7                */
+	word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+
+.divider--top {
+	border-top: $divider;
+}
+
+.divider--right {
+	border-right: $divider;
+}
+
+.divider--bottom {
+	border-bottom: $divider;
+}
+
+.divider--left {
+	border-left: $divider;
+}
