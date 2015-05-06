@@ -6,7 +6,7 @@
 	width: 100%;
 
 	@include media-query(lap-and-up) {
-		flex-basis: 100px;
+		flex-basis: 80px;
 	}
 
 	&__links {
@@ -17,8 +17,6 @@
 		}
 
 		li {
-			width: 32px;
-
 			@include media-query(lap-and-up) {
 				display: block !important;
 				margin: 0 auto $gutter/4 auto;
@@ -27,6 +25,8 @@
 
 		a {
 			display: block !important;
+			height: 40px;
+			width: 40px;
 		}
 
 		.icon path {
