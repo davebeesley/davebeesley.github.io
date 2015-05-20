@@ -1,10 +1,12 @@
 ---
 layout: post
 title: Building a Twitter Bot
-date: 2015-05-19T12:15:00.000Z
+date: {}
 categories: ruby twitter
-excerpt: On my way into work this morning, I stumbled across an interesting coding challenge. This is what happened next
+excerpt: "On my way into work this morning, I stumbled across an interesting coding challenge. This is what happened next"
+published: false
 ---
+
 
 This morning on my way into work, I was sat on the bus browsing through Twitter as I do to allay the boredom and I stumbled across this little beauty.
 
