@@ -4,7 +4,7 @@ title: Building a Twitter Bot
 date: {}
 categories: ruby twitter
 excerpt: "On my way into work this morning, I stumbled across an interesting coding challenge. This is what happened next"
-published: false
+published: true
 ---
 
 
