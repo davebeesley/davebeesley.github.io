@@ -31,5 +31,3 @@ Eventually I have plumped for Ruby on Rails, it's new enough to me for my brain 
 So here I am, a clean repo, an unused twitter account, and absolutely no Ruby knowledge what-so-everrrr.
 
 Wish me luck :)
-
-Test
