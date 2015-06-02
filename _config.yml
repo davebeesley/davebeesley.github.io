@@ -9,6 +9,7 @@ twitter_username: davebeesley
 github_username:  davebeesley
 
 # Build settings
+markdown: kramdown
 highlighter: pygments
 encoding: utf-8
 permalink: /blog/:year/:month/:title
