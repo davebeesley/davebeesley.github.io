@@ -95,4 +95,4 @@ Microbrewing - A friend and I brew cider every autumn using our cider press
 
 Football – I enjoy playing 5-a-side, watching Cheltenham Town and Liverpool 
 
-*References available on request*
+#### References available on request
