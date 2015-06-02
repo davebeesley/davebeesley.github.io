@@ -26,14 +26,18 @@ I have 5 years industry experience as a Front End Web Developer, focusing on mob
 
 ### Front End Web Developer
 Firehoop, Cheltenham
+
 August 2014 - May 2015
+
 - Building responsive templates
 - Build to Umbraco CMS
 - Testing websites in multiple browser and device combinations
 
 ### Web Developer
 Now Media, Cheltenham
+
 January 2012 - August 2014
+
 - Building responsive websites.
 - Testing websites in multiple browser and device combinations
 - Onsite SEO
@@ -41,7 +45,9 @@ January 2012 - August 2014
 
 ### HTML & CSS Developer
 16 Interactive, Cheltenham
+
 June 2010 – January 2012
+
 - Conversion of Flat Website Design PSDs to Standards Compliant HTML, CSS & JavaScript
 - Conversion of HTML and CSS to Content Management System Templates
 
@@ -54,12 +60,15 @@ Pre 2006 – Various Customer Service roles
 ### Courses
 
 *CreativeJS with HTML5 (2D)* – Seb Lee-Delisle – Oxford, Jan 2013 - http://seb.ly/training
+
 *CSS3 for Resposive Design* – Andrew Clarke – Cardiff, Nov 2013 - http://stuffandnonsense.co.uk
 
 ### Conferences
 
 *Mobilism*, Amsterdam, May 2012 - http://mobilism.nl/2012
+
 *WebDevConf*, Bristol, Oct 2012-2014 - http://www.webdevconf.com
+
 *Handheld*, Cardiff, Nov 2013 - http://handheldconf.com
 
 ## Education
@@ -70,14 +79,20 @@ CertHE Computing
 
 ### North Leamington School, Leamington Spa
 1995 – 2001
+
 GCSE - 9 Subjects
+
 A Level - Mathematics, Computing & General Studies
 
 ## Hobbies & Interests
 Web Development
+
 Running - Completed the Great North Run in 2013
+
 Swimming - Currently swimming over 1km per day
+
 Microbrewing - A friend and I brew cider every autumn using our cider press
+
 Football – I enjoy playing 5-a-side, watching Cheltenham Town and Liverpool 
 
 *References available on request*
