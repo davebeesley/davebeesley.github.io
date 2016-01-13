@@ -6,7 +6,7 @@ weight: 1
 ---
 
 ## Profile
-I have 5 years industry experience as a Front End Web Developer, focusing on mobile first responsive websites builds using HTML5, CSS3 and JavaScript in PHP & .Net environments. I also bring to your organisation 3 years’ experience in 1st, 2nd and 3rd Line IT Support within educational establishments and excellent customer service focus from over 6 years in retail and catering positions. In my time in my most recent role, I have been responsible for taking a design from Photoshop comps or wireframes to CMS templates or full CMS driven websites. I am currently focusing my out of work study on enhancing my knowledge of back-end technologies including PHP, Ruby and Node.js, the latter being from a hobbyist point of view.
+I have over 5 years industry experience as a Front End Web Developer, focusing on mobile first responsive websites builds using HTML, CSS and JavaScript in PHP & .Net environments. I also bring to your organisation 3 years’ experience in 1st, 2nd and 3rd Line IT Support within educational establishments and excellent customer service focus from over 6 years in retail and catering positions. In my time in my most recent role, I have been responsible for taking a design from Photoshop comps or wireframes to CMS templates or full CMS driven websites. I am currently focusing my out of work study on enhancing my knowledge of JavaScript, particularly the React Library.
 
 ## Key Skills
 - HTML
