@@ -9,6 +9,7 @@ layout: default
 <h2>Latest Blog Posts</h2>
 <ul class="post-list">
   {% for post in site.posts limit:2 %}
+  
     <li class="post-list__post">
       <h3 class="post-list__heading">
         <a class="post-list__link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
