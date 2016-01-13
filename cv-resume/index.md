@@ -9,7 +9,9 @@ weight: 1
 I have 5 years industry experience as a Front End Web Developer, focusing on mobile first responsive websites builds using HTML5, CSS3 and JavaScript in PHP & .Net environments. I also bring to your organisation 3 years’ experience in 1st, 2nd and 3rd Line IT Support within educational establishments and excellent customer service focus from over 6 years in retail and catering positions. In my time in my most recent role, I have been responsible for taking a design from Photoshop comps or wireframes to CMS templates or full CMS driven websites. I am currently focusing my out of work study on enhancing my knowledge of back-end technologies including PHP, Ruby and Node.js, the latter being from a hobbyist point of view.
 
 ## Key Skills
-- HTML/CSS/JavaScript
+- HTML
+- CSS (Sass)
+- JavaScript (jQuery, Angular, React)
 - Mobile First, Responsive Web Development
 - W3C Compliance
 - Cross Browser Compatibility
@@ -23,6 +25,16 @@ I have 5 years industry experience as a Front End Web Developer, focusing on mob
 - Search Engine Optimisation – Basic onsite SEO  
 
 ## Experience
+
+### Front End Web Developer
+Quarterback, Cheltenham
+
+June 2015 - Present
+
+- Building responsive templates
+- Build to Wordpress/Umbraco CMS
+- Building bespoke solutions, including a booking system and payment gateway interface
+- Testing websites in multiple browser and device combinations
 
 ### Front End Web Developer
 Firehoop, Cheltenham
