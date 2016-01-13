@@ -2,7 +2,7 @@
 layout: page
 title: CV/Resume
 permalink: /cv-resume/
-weight: 1
+weight: 4
 ---
 
 ## Profile
