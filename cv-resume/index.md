@@ -26,7 +26,7 @@ I have over 5 years industry experience as a Front End Web Developer, focusing o
 
 ## Experience
 
-### Front End Web Developer
+### Senior Web Developer
 Quarterback, Cheltenham
 
 June 2015 - Present
