@@ -14,7 +14,7 @@ I want something I can build once, and then just login to an admin area and add/
 
 ## Why Laravel?
 
-I could just build the new site in a CMS I already know - Wordpress, Perch or even Umbraco (shudder). But I want to learn something new. I set myself the goal at the turn of the year that I wanted to learn Laravel (and Vue). So this would seem like as good a challenge to learn by doing as any.
+I could just build the new site in a CMS I already know - Wordpress, Perch or even Umbraco. But I want to learn something new. I set myself the goal at the turn of the year that I wanted to learn Laravel (and Vue). So this would seem like as good a challenge to learn by doing as any.
 
 ### How?
 
