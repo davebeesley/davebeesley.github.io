@@ -11,11 +11,11 @@ This has usually involved binding a click event listener to the button, then tog
 
 ## Enter CSS Pseudo selectors
 
-With the growing support for CSS Pseudo selectors, specifically :target, I have made the jump (pun intended) to using my a jump link to actually show the menu. This approach requires no JavaScript at all, and is supported in all modern browsers (CH 4+, FF 3.5+, Safari 3.2+, Opera 10.1+, IE 7+).
+With the growing support for CSS Pseudo selectors, specifically :target, I have made the jump (pun intended) to using a jump link to actually show the menu. This approach requires no JavaScript at all, and is supported in all modern browsers (CH 4+, FF 3.5+, Safari 3.2+, Opera 10.1+, IE 7+).
 
 ### An Example
 
-So let look at what markup you would use for you menu
+So lets look at what markup you would use for you menu
 
 ```` html
 <nav class="nav" id="main-nav" role="navigation">
@@ -31,20 +31,23 @@ So let look at what markup you would use for you menu
 And lets say you have a simple anchor tag that you have styled up to look like a hamburger
 
 ```` html
-<a href="#main-nav"><span class="is-hidden" hidden aria-hidden="true">Menu</span></a>
+<a href="#main-nav"><span class="is-hidden">Menu</span></a>
 ````
 
 The crucial part here is the href. This must start with a hash and then contain the ID of the element that is hidden. Much like a standard jump link.
 
-Now the CSS
+Now use your preferred CSS technique to hide the menu from view until the button is clicked, but remember that display: none will make the menu inaccessible to screen readers.
 
 ```` css
 .nav {
-	display: none;
+	left: 0;
+	position: absolute;
+	top: 0;
+	transform: translateX(-100%);
 }
 
 .nav:target {
-	display: block;
+	transform: translateX(0);
 }
 ````
 
