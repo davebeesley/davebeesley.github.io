@@ -1,3 +1,7 @@
+# SSL Settings
+url: https://davidbeesley.co.uk
+enforce_ssl: davidbeesley.co.uk
+
 # Site settings
 title: David Beesley
 email: hello@davidbeesley.co.uk
