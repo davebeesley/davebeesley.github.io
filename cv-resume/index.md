@@ -11,11 +11,11 @@ I have over 5 years industry experience as a Front End Web Developer, focusing o
 ## Key Skills
 - HTML
 - CSS (Sass)
-- JavaScript (jQuery, Angular, React)
-- Mobile First, Responsive Web Development
+- JavaScript (Vue, React, Gulp, jQuery)
+- PHP (Laravel)
 - W3C Compliance
 - Cross Browser Compatibility
-- CMS Systems – Perch, Umbraco, In House C#.Net CMS System
+- CMS Systems – Wordpress, Processwire, Umbraco, Perch
 - Source Control - Git, Mercurial
 - Client Management – Excellent client liaison and troubleshooting skills
 
@@ -26,10 +26,27 @@ I have over 5 years industry experience as a Front End Web Developer, focusing o
 
 ## Experience
 
+### Full Stack Web Developer
+JFD, Cheltenham
+
+July 2016 - Present
+
+- Building responsive templates
+- Build to Wordpress/Processwire/Custom internal CMS
+- Building bespoke solution in Laravel/Vue including a membership and order model, and integration with Stripe payment system
+- Testing websites in multiple browser and device combinations
+
+### Contract Web Developer
+Factor 3, Cheltenham
+
+June 2016 - July 2016
+
+- Short term contract building a complete Wordpress website
+
 ### Senior Web Developer
 Quarterback, Cheltenham
 
-June 2015 - Present
+June 2015 - June 2016
 
 - Building responsive templates
 - Build to Wordpress/Umbraco CMS
@@ -100,8 +117,6 @@ A Level - Mathematics, Computing & General Studies
 Web Development
 
 Running - Completed the Great North Run in 2013
-
-Swimming - Currently swimming over 1km per day
 
 Microbrewing - A friend and I brew cider every autumn using our cider press
 
