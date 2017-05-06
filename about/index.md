@@ -11,8 +11,8 @@ I began building websites as a hobbyist back in the "dark ages" before CSS. Buil
 
 After a few years at Uni, and a few more in retail jobs, I embarked on a career in IT support before moving back into Web Development in 2010 (having taught myself the basics of CSS in a weekend).
 
-Since returning to Web Development, I have been very fortunate to work for four wonderful agencies (including my current role at [Quarterback][quarterback]) and some amazing local, national and international clients.
+Since returning to Web Development, I have been very fortunate to work for four wonderful agencies (including my current role at [JFD][jfd]) and some amazing local, national and international clients.
 
-Away from the web, I'm married to the wonderful Helen and have recently become a father to my beautiful daughter Eva. I am a proud (but suffering) supporter of Liverpool Football Club and also an amateur brewer of Cider and Ale.
+Away from the web, I'm a father to my beautiful daughter Eva. I am a proud (but suffering) supporter of Liverpool Football Club, an avid Formula One fan and also an amateur brewer of Cider and Ale.
 
-[quarterback]: http://qtrback.co.uk
+[jfd]: http://www.jfd.co.uk
