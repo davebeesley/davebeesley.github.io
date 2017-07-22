@@ -14,13 +14,17 @@
     }
 
     img {
-        margin: 0 0 15px;
         width: 100%;
 
         @include media-query(lap-and-up) {
             float: left;
-            margin: 0 15px 15px 0;
+            margin-right: 15px;
             max-width: 200px;
         }
+    }
+
+    * + * {
+        margin-top: 0.75em;
+        margin-bottom: 0;
     }
 }

@@ -1,9 +1,19 @@
 .availability {
     background-color: $brand-colour;
     color: #ffffff;
-    margin: 0 0 15px;
     padding: 15px;
     width: 100%;
+
+    @include media-query(lap-and-up) {
+        float: right;
+        margin: 0 0 15px 15px;
+        max-width: 350px;
+    }
+
+    * + * {
+        margin-top: 0.75em !important;
+        margin-bottom: 0;
+    }
 
     h2 {
         color: #ffffff;
@@ -15,11 +25,5 @@
 
         background-color: $body-bg;
         font-size: 18px;
-    }
-
-    @include media-query(lap-and-up) {
-        float: right;
-        margin: 0 0 15px 15px;
-        max-width: 250px;
     }
 }

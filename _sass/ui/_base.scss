@@ -27,7 +27,6 @@ body {
 @include headings(1, 6) {
 	line-height: 1.1 !important;
 	font-family: $brand-font-family;
-	margin: 0 0 15px;
 	color: $brand-colour;
 }
 
@@ -47,7 +46,6 @@ a {
 p {
 	font-size: 18px;
 	line-height: 1.6;
-	margin: 0 0 15px;
 }
 
 dl {
