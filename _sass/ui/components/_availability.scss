@@ -4,9 +4,9 @@
     padding: 15px;
     width: 100%;
 
-    @include media-query(lap-and-up) {
+    @include media-query(desk) {
         float: right;
-        margin: 0 0 15px 15px;
+        margin-left: 15px;
         max-width: 350px;
     }
 
