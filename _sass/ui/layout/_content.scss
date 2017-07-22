@@ -7,4 +7,20 @@
 	@include media-query(lap-and-up) {
 		flex: 60% 1 auto;
 	}
+
+    h1 {
+        border-bottom: 2px solid $brand-colour;
+        padding: 0 0 30px 0;
+    }
+
+    img {
+        margin: 0 0 15px;
+        width: 100%;
+
+        @include media-query(lap-and-up) {
+            float: left;
+            margin: 0 15px 15px 0;
+            max-width: 200px;
+        }
+    }
 }

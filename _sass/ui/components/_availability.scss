@@ -1,0 +1,25 @@
+.availability {
+    background-color: $brand-colour;
+    color: #ffffff;
+    margin: 0 0 15px;
+    padding: 15px;
+    width: 100%;
+
+    h2 {
+        color: #ffffff;
+    }
+
+    a {
+        @extend .btn;
+        @extend .btn--small;
+
+        background-color: $body-bg;
+        font-size: 18px;
+    }
+
+    @include media-query(lap-and-up) {
+        float: right;
+        margin: 0 0 15px 15px;
+        max-width: 250px;
+    }
+}

@@ -2,20 +2,16 @@
 layout: default
 ---
 
-
-<h1>{{ site.title }}</h1>
-<p>Hi, I'm David, and I'm a Web Developer. This is where I post my incessant ramblings about all things web, politics, football and anything else that crosses my mind. Enjoy!</p>
-
-<h2>Latest Blog Posts</h2>
-<ul class="post-list">
-  {% for post in site.posts limit:2 %}
-  
-    <li class="post-list__post">
-      <h3 class="post-list__heading">
-        <a class="post-list__link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </h3>
-      <p class="post-list__meta">{{ post.date | date: "%b %-d, %Y" }}</p>
-      <p class="post-list__excerpt">{{ post.excerpt }}</p>
-    </li>
-  {% endfor %}
-</ul>
+<main class="content">
+    <h1>{{ site.title }}</h1>
+    {% include availability.html %}
+    <p>Hi, I’m David and I’m a Freelance Web Developer based in Cheltenham, England. Primarily focussing on PHP and JavaScript.</p>
+    <p>I build websites in various CMS's including Wordpress, but don't worry, I'm not a plugin jockey. The leaner the better in my opinion.</p>
+    <p>I have recently built out some much larger projects using Laravel, including a Membership and Sales platform for the UKs largest Horse Racing Charity.</p>
+    <h2>More about me</h2>
+    <img src="/assets/david-beesley.jpg" alt="David Beesley - Freelance Web Developer">
+    <p>I began building websites as a hobbyist in 1999, back in the “dark ages” before CSS. Building table based layouts in Dreamweaver for friends.</p>
+    <p>After a few years at Uni, and a few more in retail jobs, I embarked on a career in IT support before moving back into Web Development in 2010.</p>
+    <p>Since returning to Web Development, I have been very fortunate to work for four wonderful agencies and some amazing local, national and international clients.</p>
+    <p>Away from the web, I’m a father to my beautiful daughter Eva. I am a proud (but suffering) supporter of Cheltenham Town and Liverpool Football Clubs, and an avid Formula One fan.</p>
+</main>
