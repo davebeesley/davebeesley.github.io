@@ -25,9 +25,10 @@ body {
 }
 
 @include headings(1, 6) {
-	line-height: 1.1 !important;
-	font-family: $brand-font-family;
 	color: $brand-colour;
+	font-family: $brand-font-family;
+	line-height: 1.1 !important;
+	margin: 0;
 }
 
 .alpha, .beta, .gamma,
