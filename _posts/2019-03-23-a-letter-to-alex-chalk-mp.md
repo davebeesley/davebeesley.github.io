@@ -7,7 +7,7 @@ excerpt: I wrote an open letter to my local MP, regarding Brexit
 ---
 Dear Alex,
 
-I’m writing to ask you to consider supporting the motion that is getting put forward by Angus B MacNeil MP. A supporting petition, at the time of writing has over 4 million signatures, and is rising, rapidly.
+I’m writing to ask you to consider supporting [the motion](https://twitter.com/AngusMacNeilSNP/status/1108675217596076032) that is getting put forward by Angus B MacNeil MP. A [supporting petition](https://petition.parliament.uk/petitions/241584), at the time of writing has over 4 million signatures, and is rising, rapidly.
 
 The Brexit process has descended into desperate, divisive chaos which is causing extreme levels of damage to the United Kingdom and its citizens. If this process results in a no deal exit of the EU, the damage will be unprecedented.
 
