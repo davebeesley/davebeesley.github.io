@@ -22,4 +22,4 @@ We owe it to both U.K. citizens and EU citizens to resolve this situation.
 Thank you,
 David Beesley
 
-Thanks to [Andy Bell](https://andy-bell.design/wrote/open-letter-to-laurence-robertson-mp/) for his original version
+Thanks to [Andy Bell](https://andy-bell.design/) for his [original version](https://andy-bell.design/wrote/open-letter-to-laurence-robertson-mp/)
